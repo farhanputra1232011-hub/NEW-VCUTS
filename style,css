@@ -4,7 +4,7 @@
     --text-color: #333333;
     --primary-color: #0056b3;
     --border-color: #cccccc;
-    --progress-bg: #e0e0e0;
+    --progres-bg: #e0e0e0;
 }
 
 body.dark-mode {
@@ -13,11 +13,11 @@ body.dark-mode {
     --text-color: #f1f1f1;
     --primary-color: #4da6ff;
     --border-color: #44445c;
-    --progress-bg: #44445c;
+    --progres-bg: #44445c;
 }
 
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
@@ -71,7 +71,7 @@ nav a {
     color: var(--text-color);
     text-decoration: none;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid var(--border-color);
 }
 
@@ -84,7 +84,7 @@ nav a {
     border: none;
 }
 
-/* Layout Utama (2 Kolom sesuai sketsa) */
+/* Layout Utama (2 Kolom) */
 .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -117,7 +117,7 @@ nav a {
 }
 
 .progress-bar {
-    background-color: var(--progress-bg);
+    background-color: var(--progres-bg);
     border-radius: 10px;
     height: 12px;
     overflow: hidden;
